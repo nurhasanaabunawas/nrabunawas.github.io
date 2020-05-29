@@ -1,0 +1,36 @@
+body{
+    background-color :  gainsboro;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+h1{
+    margin:  3px;
+}
+    
+}
+.ccc {
+    margin-top: 2em;
+}
+table {
+    margin: auto;
+    width: 60%;
+    margin-top: 20px;
+    
+}
+
+td, th {
+    border-style: double;
+    border-radius: 2px;
+    border: 5px;
+    background-color:gray;
+
+}
+
+img {
+    width: 10%;
+    height: 25%;
+    position: absolute;
+    float: right;
+    right: 0;
+    padding:  18px 9em;
+    
+}

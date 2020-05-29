@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registrasi</title>
+    <script src="mhs.js"></script>
+    <link rel="stylesheet" href="mhs.css">
+    
+</head>
+<body>
+        <form action="" id="form1">
+       
+        <h2>Registrasi Mahasiswa</h2>
+        <table>
+            <tr>
+                <td>Nama</td>
+                <td> :</td>
+                <td><input type="text" id="n1" /></td>
+            </tr>
+            <tr>
+                <td>NIM </td>
+                <td> :</td>
+                <td><input type="text" id="n2" /></td>
+            </tr>
+            <tr>
+                <td>Prodi</td>
+                <td> :</td>
+                <td><input type="text" id="n3" /></td>
+            </tr>
+            <tr>
+                <td>Email</td>
+                <td> :</td>
+                <td><input type="text" id="n4" /></td>
+            </tr>
+
+        </table>
+        <button type="button"  onclick="hitung()" >Daftar</button>
+        </form>
+
+
+        <h2>List Mahasiswa Terdaftar</h2>
+        <table id="hasil">
+            <tr>
+                <td id="nama">Nama</td>
+                <td id="nim">NIM</td>
+                <td id="prodi">Prodi</td>
+                <td id="mail">Email</td>
+            </tr>
+            <tr>
+               
+                <td> </td>
+                <td> </td>
+                <td> </td>
+                <td> </td>
+                <button type="button" onclick="ganti()" value="reset">Reset</button>
+            </table>    
+            </tr>
+
+
+<!-- <script>
+   class Car{ constructor(brand, ccEngine, isAutoTransmission) 
+    { this.brand= brand; 
+        this.ccEngine= ccEngine; 
+        this.isAutoTransmission= isAutoTransmission; } 
+        getDescription(){ 
+            return (`The brandname of the caris ${this.brand}.`) } } 
+            let mobil1 = new Car(‘Toyota', ‘1400cc’, false); let mobil2 = new Car(‘Honda', ‘1000cc’, true); 
+console.log(mobil1.brand); 
+console.log(mobil2.ccEngine); 
+console.log(mobil1.getDescription()); 
+
+</script> -->
+
+</body>
+</html>

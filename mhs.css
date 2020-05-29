@@ -1,0 +1,18 @@
+body{
+    background-color: gainsboro;
+    color:black;
+}
+table, th, td {
+    color: black;
+
+}
+  table {
+    border: black;
+    color: black;
+    border-radius: 2px;
+
+  }
+  .hasil{
+    border-radius: 3px;
+    border-color: black;
+  }
